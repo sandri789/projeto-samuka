@@ -7,7 +7,7 @@
 #define WIFI_PASSWORD "YOU_WIFI_PASSWORD"
 
 void setup() {
-
+// Comentário de teste para ver alteração no commit
   Serial.begin(115200);
 
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
